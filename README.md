@@ -23,6 +23,9 @@ To integrate Prometheus with Grafana for real-time monitoring and visualization.
 - Custom dashboards in Grafana
 - Integration with Prometheus data source
 
+## Conclusion
+This project successfully integrates Prometheus with Grafana to monitor and visualize real-time system metrics.
+
 ## Deliverables
 - Grafana Dashboard (dashboard.json)
 - Screenshots of output
