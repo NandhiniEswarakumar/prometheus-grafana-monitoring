@@ -28,6 +28,8 @@ Download and install Docker Desktop from the official website and ensure it is r
 ### 🔹 Step 2: Run Node Exporter then run grafana
 Username: admin pass: admin123
 
+---
+
 ## Query for CPU usage
 100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)
 ## Query for memory panel
@@ -37,8 +39,11 @@ Username: admin pass: admin123
 
 Node Exporter is used to collect system-level metrics such as CPU, memory, and disk usage.
 
+---
+
 ### In promql run up
 
 ```bash
 docker run -d -p 9100:9100 prom/node-exporter
+---
 
